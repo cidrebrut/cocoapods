@@ -1,4 +1,4 @@
-FROM ruby:2.5-alpine3.7
+FROM ruby:2.5
 
 # update gem
 RUN update_rubygems
