@@ -5,7 +5,7 @@ RUN update_rubygems
 
 # install cocoapods
 RUN gem update cocoapods
-RUN gem install cocoapods
+RUN gem install cocoapods -v 1.5.3
 
 # add user
 RUN adduser cocoapods
